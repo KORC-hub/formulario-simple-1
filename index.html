@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Hoja de vida</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>&bull; Crea tu hoja de vida &bull;</h1>
+        <div class="linea"></div>
+        <form action="#" method="post">
+            <h2>Perfil</h2>
+            <div class="subLinea"></div>
+            <div class="texto">
+                <label for="texto"></label>
+                <textarea name="texto" placeholder="En este campo se tiene que describir a usted mismo en tercera persona, puede basarse en sus competencias y desempeños academicos para una mejor descripcion." cols="30" rows="5" required></textarea>
+            </div>
+            <h2>Datos Personales</h2>
+            <div class="subLinea_2"></div>
+            <div class="dato">
+                <input type="text" placeholder="Nombre" name="name" autocomplete="off" required>
+                <input type="text" placeholder="Telefono" name="telefono" autocomplete="off" required>
+                <input type="text" placeholder="Correo" name="correo" autocomplete="off" required>
+                <input type="text" placeholder="Redes Sociales" name="redSocial" autocomplete="off" required>
+            </div>
+            <h2>Estudios y experiencia</h2>
+            <div class="subLinea_3"></div>
+            <div class="dato">
+                <input type="text" placeholder="Estudio" name="estudio" autocomplete="off" required>
+                <input type="text" placeholder="Competencias en la formacion" name="estudio" autocomplete="off" required>
+                <input type="text" placeholder="trabajos" name="trabajo" autocomplete="off" >
+                <input type="text" placeholder="cursos" name="cursos" autocomplete="off" >
+            </div>
+            <h2>Referencias</h2>
+            <div class="subLinea_4"></div>
+            <div class="texto">
+                <label for="texto"></label>
+                <textarea name="texto" placeholder="Escribe una referencia de un profesor, coordinador de grupo o proyecto, jefe, etc.(NO referencias perosnales)" cols="30" rows="5" required></textarea>
+            </div>
+            <div class="submit">
+                <input class="form_button" type="submit" value="Crear" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>
